@@ -1,3 +1,4 @@
+/app/bootstrap.php.cache
 /app/cache/*
 !app/cache/.gitkeep
 /app/config/parameters.yml
@@ -8,4 +9,3 @@
 /composer.phar
 /vendor/
 /web/bundles/
-/web/assets/

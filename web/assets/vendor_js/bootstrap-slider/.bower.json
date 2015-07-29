@@ -1,0 +1,32 @@
+{
+  "name": "bootstrap-slider",
+  "main": [
+    "bootstrap-slider.js",
+    "slider.css"
+  ],
+  "homepage": "https://github.com/pammacdotnet/bootstrap-slider",
+  "authors": [
+    "pammacdotnet"
+  ],
+  "description": "Eyecon Slider for Bootstrap",
+  "keywords": [
+    "slider",
+    "bootstrap"
+  ],
+  "license": "Apache",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "879a98dcd0",
+  "_resolution": {
+    "type": "commit",
+    "commit": "879a98dcd0923107363861e56423f3cc1c2472e7"
+  },
+  "_source": "git://github.com/pammacdotnet/bootstrap-slider.git",
+  "_target": "879a98dcd0923107363861e56423f3cc1c2472e7",
+  "_originalSource": "git://github.com/pammacdotnet/bootstrap-slider"
+}

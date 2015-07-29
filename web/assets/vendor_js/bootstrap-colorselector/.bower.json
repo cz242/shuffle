@@ -1,0 +1,13 @@
+{
+  "name": "bootstrap-colorselector",
+  "homepage": "https://github.com/revinate/bootstrap-colorselector",
+  "_release": "13a5422cb4",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "13a5422cb47feafbe97d29678f887cb886f20208"
+  },
+  "_source": "git://github.com/revinate/bootstrap-colorselector.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/revinate/bootstrap-colorselector"
+}

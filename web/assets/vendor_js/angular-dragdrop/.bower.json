@@ -1,0 +1,14 @@
+{
+  "name": "angular-dragdrop",
+  "homepage": "https://github.com/codef0rmer/angular-dragdrop",
+  "version": "1.0.1",
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.1",
+    "commit": "a7315f8e24bebdcb79255afce3da102cf487a2c0"
+  },
+  "_source": "git://github.com/codef0rmer/angular-dragdrop.git",
+  "_target": "1.0.1",
+  "_originalSource": "angular-dragdrop"
+}
