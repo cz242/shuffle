@@ -3,7 +3,21 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
+        {% stylesheets
+            'assets/vendor_js/bootstrap/dist/css/bootstrap.css'
+            'assets/vendor_js/bootstrap/dist/css/bootstrap-theme.css'
+            'assets/vendor_js/bootstrap-additions/dist/bootstrap-additions.css'
+        %}
+        <link rel="stylesheet" href="{{ asset_url }}"/>
+        {% endstylesheets %}
         {% block stylesheets %}{% endblock %}
+        {% javascripts
+            'assets/vendor_js/jquery/dist/jquery.js'
+            'assets/vendor_js/angular/angular.js'
+            'assets/vendor_js/bootstrap/dist/js/bootstrap.js'
+        %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+        {% endjavascripts %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>

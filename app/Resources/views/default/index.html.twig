@@ -1,14 +1,21 @@
 {% extends 'base.html.twig' %}
 
-{% block body %}
-    Homepage.
-    {{ number }}
-    <br/>
-    <div> Input something <input placeholder="{{ number }}"> </div>
+{% block javascripts %}
+    {% javascripts '../app/Resources/public/js/homepage.js' %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
 {% endblock %}
 
-{% block javascripts %}
-function isOdd(number) {
-    return number & 1;
-}
+{% block body %}
+    <div ng-cloak ng-app="homepage" ng-controller="homepageController" ng-init="init({{ number | json_encode }})">
+
+        Homepage.
+        Initial number: [[ initNum ]]
+        <br/>
+        <div>
+            Input something: <input type="text" ng-model="value">
+            Value input: [[ value ]]
+        </div>
+    </div>
 {% endblock %}
+
