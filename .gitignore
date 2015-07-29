@@ -10,4 +10,4 @@
 /vendor/
 /web/bundles/
 /.idea/
-npm-debug.log
+/npm-debug.log
