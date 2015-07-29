@@ -1,0 +1,38 @@
+{
+  "name": "shuffle",
+  "version": "0.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.3",
+    "angular-bootstrap-colorpicker": "git://github.com/buberdds/angular-bootstrap-colorpicker.git#3.0.18",
+    "angular-bootstrap": "0.11.2",
+    "angular-dragdrop": "1.0.1",
+    "angular-growl": "0.3.1",
+    "angular-inview": "1.0.4",
+    "angular-i18n": "1.2.0-rc.2",
+    "angular-moment": "0.7.1",
+    "ng-file-upload": "1.6.5",
+    "moment": "2.6.0",
+    "bootstrap": "3.2.0",
+    "bootstrap-additions": "0.2.3",
+    "bootstrap-colorselector": "git://github.com/revinate/bootstrap-colorselector",
+    "bootstrap-multiselect": "0.9.13",
+    "bootstrap-slider": "git://github.com/pammacdotnet/bootstrap-slider#879a98dcd0923107363861e56423f3cc1c2472e7",
+    "font-awesome": "4.2.0",
+    "iframe-resizer": "1.4.2",
+    "jquery": "1.9.1",
+    "jquery-ui": "1.10.3",
+    "underscore": "1.5.2"
+  },
+  "resolutions": {
+    "angular": "1.2.3",
+    "jquery": "1.9.1"
+  }
+}

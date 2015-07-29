@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    Homepage.
+    {{ number }}
+    <br/>
+    <div> Input something <input placeholder="{{ number }}"> </div>
+{% endblock %}
+
+{% block javascripts %}
+function isOdd(number) {
+    return number & 1;
+}
+{% endblock %}
