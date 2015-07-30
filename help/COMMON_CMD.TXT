@@ -1,0 +1,30 @@
+MONITOR JS CHANGES:
+php app/console assetic:dump --env=dev --watch
+
+DUMP JS FILES:
+php app/console fos:js-routing:dump
+
+CLEAR SYMFONY CACHE:
+php app/console cache:clear
+
+REBUILD SCHEMA:
+php app/console doctrine:schema:update --force --env=dev
+
+DATA MIGRATION GENERATE:
+php app/console doctrine:migrations:generate
+
+DATA MIGRATION EXECUTE:
+php app/console doctrine:migrations:migrate
+
+GIT COMMIT (new commit):
+git commit -am “sample message”
+
+GIT REVIEW (existing commit, review changes. —-amend will add the lastest changes to the previous commit):
+git add .
+git commit —-amend  
+
+SWITCH STAGE BRANCH
+1. make sure your local branch is update-to-date
+git pull
+2. switch to new branch
+git checkout -b “$newBranch”
