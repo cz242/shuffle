@@ -10,9 +10,11 @@
 /vendor/
 /web/bundles/
 /.idea/
+
 npm-debug.log
 .idea/shuffle.iml
 
 .idea/workspace.xml
 
 npm-debug.log
+
