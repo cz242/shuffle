@@ -20,10 +20,10 @@ AppBundle\Entity\Room:
             type: integer
 
         updatedAt:
-            type: datetime;
+            type: datetime
 
         createdAt:
-            type: datetime;
+            type: datetime
 
     lifecycleCallbacks:
         prePersist: [ prePersist ]
