@@ -1,7 +1,10 @@
 {% extends 'base.html.twig' %}
 
 {% block javascripts %}
-    {% javascripts '../app/Resources/public/js/homepage.js' %}
+    {% javascripts
+        '../app/Resources/public/js/homepage.js'
+        '../app/Resources/public/js/factories/cardTools.js'
+    %}
         <script type="text/javascript" src="{{ asset_url }}"></script>
     {% endjavascripts %}
 {% endblock %}
@@ -15,6 +18,8 @@
         <div>
             Input something: <input type="text" ng-model="value">
             Value input: [[ value ]]
+            <br/>
+            Use: [[ use(value).suit ]] [[use(value).point]]
         </div>
     </div>
 {% endblock %}

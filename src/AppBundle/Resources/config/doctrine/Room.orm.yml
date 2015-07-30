@@ -1,0 +1,30 @@
+AppBundle\Entity\Room:
+    type: entity
+    table: room
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+            length: 100
+
+        description:
+            type: text
+
+        numOfPlayers:
+            type: integer
+
+        numOfCardSets:
+            type: integer
+
+        updatedAt:
+            type: datetime;
+
+        createdAt:
+            type: datetime;
+
+    lifecycleCallbacks:
+        prePersist: [ prePersist ]
+        preUpdate: [ preUpdate ]
