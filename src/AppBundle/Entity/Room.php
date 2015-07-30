@@ -6,6 +6,8 @@
  * Time: 下午9:27
  */
 
+namespace AppBundle\Entity;
+
 class Room {
     protected $id;
     protected $name;
@@ -142,3 +144,4 @@ class Room {
      */
 
 }
+use Symfony\Component\Validator\Tests\Fixtures\Entity;
